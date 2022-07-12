@@ -3,7 +3,11 @@ const format = require('date-format');
 
 const app = express();
 
-const PORT = Process.env.PORT || 4000;
+const PORT = process.env.PORT || 4000;
+
+app.get('/', (req, res) => {
+  res.status(200).send('<h1>Hello World</h1>');
+});
 
 app.get('/api/v1/:token', (req, res) => {
   console.log(req.params.token);

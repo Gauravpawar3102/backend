@@ -10,7 +10,7 @@
     "express",
     "api"
   ],
-  "author": "gaurav Pawar\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[G",
+  "author": "gaurav Pawar",
   "license": "ISC",
   "dependencies": {
     "date-format": "^4.0.11",
